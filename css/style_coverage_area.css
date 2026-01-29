@@ -1,0 +1,210 @@
+body 
+{
+    background-color: aliceblue;
+    font-family: Arial;
+    margin: 0;
+
+}
+
+h1
+{
+    color: darkblue;
+    padding: 35px;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2
+{
+    color: darkblue;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+p 
+{
+    font-family: Arial;
+}
+
+.navbar
+{background-color: midnightblue ;
+ padding: 20px}
+
+.navbar ul
+{list-style: none;
+ display: flex;
+ justify-content: center;
+ gap: 30px;
+ margin: 0;
+ padding: 0;}
+
+.navbar ul li a 
+ {color: whitesmoke;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 14px;}
+
+.navbar ul li a: hover
+{ text-decoration:underline; }
+
+
+.footer
+{
+background:white;
+padding: 40px 80px;
+color: darkblue;
+font-family: arial, sans-serif;
+text-decoration: none; 
+}
+
+.footer-one
+{
+display: flex;
+justify-content: space-between;
+text-align: center;
+gap: 30px;
+}
+
+.footer-box span
+{
+font-size: 30px;
+display: block;
+margin: margin-bottom 10px;  
+}
+
+.footer-box h4
+{
+margin-bottom: 10px; 
+color: darkblue;
+}
+
+.footer-box p
+{
+font-size: 14px;  
+color: black;
+}
+
+.footer-medsoc 
+{
+text-align: right;
+margin: 20px;
+color: darkblue;
+word-spacing:6px;
+}
+
+
+.footer-medsoc a
+{
+margin-left: 15px;
+text-decoration: none;
+color: black;
+}
+
+.footer-medsoc p
+
+{
+text: right;  
+margin: 20px 0;
+}
+
+.footer-medsoc  .icons a
+{
+display: inline-block;
+width: 35px;
+height: 35px;
+line-height: 35px;
+text-align: center;
+background: lightgrey;
+border-radius: 50%;
+margin-left: 8px;
+text-decoration: none;
+color: black;
+}
+
+
+
+
+
+.footer-medsoc a
+{
+margin-left: 15px;
+text-decoration: none;
+color: darkblue;
+}
+
+.footer a:hover
+{
+text-decoration: none;
+color: grey;
+}
+
+hr
+{
+margin: 25px;
+border-radius: none;
+border-top: 1px solid;
+}
+
+
+.why-choose
+{
+padding: 60px;  
+background: aliceblue;
+text-align: center;
+}
+
+.why-choose h2
+{
+margin-bottom: 40px;
+color: darkblue;
+font-size: 28px;
+}
+
+.why-container
+{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;  
+}
+
+.why-box
+{
+background: whitesmoke;
+padding: 25px;  
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: left;
+}
+
+.why-box h4
+{
+margin-bottom: 10px;  
+color: darkblue;
+}
+
+.why-box p
+{
+font-size: 14px;
+color: darkblue;
+line-height: 1.6;  
+}
+
+
+.content
+{
+position: relative;
+color: darkblue;
+text-align: center;
+z-index: 3;
+}
+
+
+.footer-copyright
+{
+  color: darkblue;
+  text-align: left;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;}
+
+
